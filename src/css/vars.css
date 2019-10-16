@@ -1,6 +1,6 @@
 :root {
   --colorLightest: white;
-  --colotText: #211f1f;
+  --colorBlack: #211f1f;
   --colorMain: #f9d2cb;
   --colorSecondary: #a3f4dc;
   --colorGray: #fafafa;
@@ -9,14 +9,15 @@
 
   --spaceSmall: .75rem;
   --spaceRegular: 1rem;
-  --spaceBig: 2rem;
+  --spaceMid: 2rem;
+  --spaceBig: 3rem;
 
   --fontSmall: 0.75rem;
   --fontRegular: 1.13rem;
   --fontMedium: 1.25rem;
   --fontMedBig: 1.5rem;
   --fontBig: 1.75rem;
-  --fontBig: 2.2rem;
+  --fontBig: 3rem;
 
 
   --font: "roboto", sans-serif;

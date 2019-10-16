@@ -1,0 +1,27 @@
+.content__spaced{
+    padding: var(--spaceMid);
+}
+
+.title_mini{
+    font-size: var(--fontSmall);
+    color: var(--colorDarkGray);
+    text-transform: uppercase;
+}
+
+.emptystate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    height: 50vh;
+
+}
+
+.orders__wrapper__hide{
+    display: none;
+}
+
+.emptystate__content{
+    padding: 1rem;
+    color: var(--colorDarkGray);
+}

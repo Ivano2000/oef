@@ -2,6 +2,8 @@
 @import "./css/vars.css";
 @import "./css/header.css";
 @import "./css/pricelist.css";
+@import "./css/footer.css";
+@import "./css/order.css";
 
 html {
   box-sizing: border-box;
@@ -18,7 +20,7 @@ body {
   font-family: var(--font);
   /* [TODOLABO]: maak gebruik van de --margin variabele */
 /* [TODOLABO]: maak gebruik van de backgroundColor variabele */
-  background-color: #eaeae9;
+  background-color: white;
   /* [TODOLABO]: maak gebruik van de textColor variabele */
 
 }
