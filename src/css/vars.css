@@ -1,6 +1,22 @@
 :root {
-  --backgroundColor: #eaeae9;
-  --textColor: #463636;
-  --anotherColor: #bada55;
-  --margin: 2rem;
+  --colorLightest: white;
+  --colotText: #211f1f;
+  --colorMain: #f9d2cb;
+  --colorSecondary: #a3f4dc;
+  --colorGray: #fafafa;
+  --colorDarkGray: #9c9c9c;
+  --colorPink: #F9D2CB;
+
+  --spaceSmall: .75rem;
+  --spaceRegular: 1rem;
+  --spaceBig: 1.88rem;
+
+  --fontSmall: 0.75rem;
+  --fontRegular: 1.13rem;
+  --fontMedium: 1.25rem;
+  --fontBig: 1.75rem;
+  --fontBiggest: 2.7rem;
+
+  --font: "roboto", sans-serif;
+  --fontWeightRegular: 400;
 }
