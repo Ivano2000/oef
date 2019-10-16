@@ -1,0 +1,43 @@
+.price__button{
+    margin: 1rem;
+    padding: 1rem;
+    background-color: var(--colorLightest);
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+}
+
+.price__button__plus{
+    padding: 1.4rem;
+    background-color: var(--colorSecondary);
+    border-radius: 0.5rem;
+    font-size: var(--fontRegular);
+}
+
+
+.price__button__wrapper{
+    display: flex;
+    flex-flow: column;
+}
+
+.prices__list{
+    background-color: var(--colorPink);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:1fr 1fr ;
+}
+
+.visually-hidden{
+    display: none;
+}
+
+.price__button__name{
+    font-size: var(--fontMedBig);
+    padding-bottom: 0.5rem;
+}
+
+.price__button__amount{
+    color: var(--colorDarkGray);
+
+}
