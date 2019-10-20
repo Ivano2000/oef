@@ -1,4 +1,8 @@
-
+.content__spaced{
+    grid-area: cs;
+    display: grid;
+    grid-template-rows: 1fr 10fr 1fr;
+}
 
 .title_mini{
     font-size: var(--fontRegular);
@@ -34,7 +38,7 @@
     grid-template-areas: 
     "amount name . price rem";
     font-weight: var(--fontWeightRegular);
-    font-size: var(--fontMedBig);
+    font-size: var(--fontMedium);
     text-align: center;
 }
 
@@ -55,13 +59,9 @@
 
 .total{
     background-color: var(--colorGray);
-    bottom: 82px;
-    position: fixed;
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    height: 20vw;
-    width: 100%;
     padding: 1rem 3rem;
-    font-size: var(--fontBigg);
+    font-size: var(--fontMedium);
 }
+

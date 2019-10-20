@@ -1,6 +1,7 @@
 .header{
   background-color: var(--colorPink);
   padding: 2rem;
+  grid-area: hdr;
 }
 
 .header__sub{
@@ -8,10 +9,24 @@
 }
 
 .header__title{
-  font-size: var(--fontBig);
+  font-size: var(--fontBigg);
   line-height: var(--spaceBig);
 }
 
 .header__thetitle{
   display: flex;
+}
+
+@media screen and (min-width: 850px) {
+  .header__foto{
+    display: none;
+  }
+  .header__title{
+    font-size: var(--fontMedium);
+    line-height: var(--spaceRegMid);
+  }
+  .header__sub{
+    font-size: var(--fontSmall);
+
+  }
 }

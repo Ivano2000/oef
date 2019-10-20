@@ -1,6 +1,11 @@
+.prices_highlight_spaced{
+    grid-area: phs;
+    display: grid;
+}
+
 .price__button{
     margin: 1rem;
-    padding: 1rem;
+    padding: 0.5rem;
     background-color: var(--colorLightest);
     border-radius: 6px;
     display: flex;
@@ -9,10 +14,10 @@
 }
 
 .price__button__plus{
-    padding: 1.4rem;
+    padding: 1rem;
     background-color: var(--colorSecondary);
     border-radius: 0.5rem;
-    font-size: var(--fontRegular);
+    font-size: var(--fontMedium);
 }
 
 
@@ -26,7 +31,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows:1fr 1fr ;
-    padding-bottom: 1rem;
+
 }
 
 .visually-hidden{
@@ -34,7 +39,7 @@
 }
 
 .price__button__name{
-    font-size: var(--fontMedBig);
+    font-size: var(--fontMedium);
     padding-bottom: 0.5rem;
 }
 
@@ -42,3 +47,11 @@
     color: var(--colorDarkGray);
 
 }
+@media screen and (min-width: 850px) {
+    .prices__list{
+      display: flex;
+      flex-direction: column;
+
+    }
+  
+  }

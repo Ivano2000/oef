@@ -1,13 +1,10 @@
 .footer{
     padding: var(--spaceBig);
     background-color: var(--colorBlack);
-    bottom: 0;
-    position: fixed;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    height: 20vw;
-    width: 100%;
     color: var(--colorDarkGray);
     text-align: center;
+    grid-area: ftr;
 }
