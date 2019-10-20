@@ -1,3 +1,31 @@
-.main{
-    background-color: tomato;
-}
+@media screen and (min-width: 300px) {
+    .main{
+      display: grid;
+      height: 100vh;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-template-areas: 
+      "hdr"
+      "phs"
+      "cs"
+      "cs"
+      "cs"
+      "ftr";
+    }
+  
+  }
+  
+  @media screen and (min-width: 850px) {
+    .main{
+      display: grid;
+      grid-template-columns: 1.5fr 1fr 1fr 1fr;
+      grid-template-rows: 0.5fr 1fr 1fr 0.5fr;
+      grid-template-areas: 
+      "hdr cs cs cs"
+      "phs cs cs cs"
+      "phs cs cs cs"
+      "ftr ftr ftr ftr";
+    }
+  
+  }
+  
