@@ -9,12 +9,13 @@
 }
 
 .header__title{
-  font-size: var(--fontBigg);
+  font-size: var(--fontBig);
   line-height: var(--spaceBig);
 }
 
 .header__thetitle{
   display: flex;
+  justify-content: space-between;
 }
 
 @media screen and (min-width: 850px) {
@@ -22,8 +23,8 @@
     display: none;
   }
   .header__title{
-    font-size: var(--fontMedium);
-    line-height: var(--spaceRegMid);
+    font-size: var(--fontBig);
+    line-height: var(--spaceBig);
   }
   .header__sub{
     font-size: var(--fontSmall);
