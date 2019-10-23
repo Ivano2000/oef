@@ -17,20 +17,22 @@ import data from './assets/data/coffees.json';
         const coffees = data.coffees;
         coffees.forEach(coffee => {
 
-            if (coffees.plantsbased == true) {
+            if (coffee.plantbased === true) {
                 makeCoffee(coffee);
             }
         });
     };
 
     const makeCoffee = coffee => {
-        const $lijst = document.querySelector(`.price__list`);
+        const $lijst = document.querySelector(`.prices__list`);
 
         const $li = document.createElement(`li`);
         $li.classList.add(`price`);
         $li.setAttribute(`data_id`, `${coffee.id}`);
         $li.innerHTML = opbouw(coffee);
+        console.log($li);
         $lijst.appendChild($li);
+       
     };
 
     const opbouw = data => {
@@ -42,9 +44,13 @@ import data from './assets/data/coffees.json';
         </span>
         <span class="price__button__plus">+</span>
         </a>`;
+        
+    };
+
+    const round = num => {
+        return num.toFixed(2);
     };
 
 
-
-
+    init();
 };
